@@ -1,0 +1,23 @@
+{
+  "total_tokens": 444015,
+  "n_clusters": 17,
+  "domains": [
+    "physics exposition",
+    "scientific method/epistemology",
+    "memoir/autobiography",
+    "science & society",
+    "education/teaching",
+    "institutional critique (Challenger, textbooks)"
+  ],
+  "dialogue_ratio": 0.172,
+  "decision_density": 0.114,
+  "temporal_spread": {
+    "earliest": "1955",
+    "latest": "1988",
+    "note": "talks/essays 1955-1988; memoirs recount 1918-1988"
+  },
+  "thin_domains": [
+    "live adversarial debate (mostly reconstructed dialogue, not verbatim transcript)"
+  ],
+  "notes": "Heavy monologic/expository + first-person memoir. Two genuine decision records (Challenger x2). Tips cluster is OCR of a scanned book and is largely equations; only its prose is voice-bearing."
+}

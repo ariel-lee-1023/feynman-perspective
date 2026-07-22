@@ -1,0 +1,140 @@
+{
+  "clusters": [
+    {
+      "id": "c01",
+      "label": "SYJ: Far Rockaway -> MIT -> Princeton (early life)",
+      "source": "raw/syj.txt",
+      "kind": "monologue",
+      "period": "memoir/2005",
+      "tokens": 33046
+    },
+    {
+      "id": "c02",
+      "label": "SYJ: Los Alamos, the bomb, safecracking",
+      "source": "raw/syj.txt",
+      "kind": "monologue",
+      "period": "memoir/2005",
+      "tokens": 27112
+    },
+    {
+      "id": "c03",
+      "label": "SYJ: Cornell/Caltech/Brazil - teaching, art, Nobel",
+      "source": "raw/syj.txt",
+      "kind": "monologue",
+      "period": "memoir/2005",
+      "tokens": 67067
+    },
+    {
+      "id": "c04",
+      "label": "SYJ: Cargo Cult Science (commencement address)",
+      "source": "raw/syj.txt",
+      "kind": "monologue",
+      "period": "1974",
+      "tokens": 4293
+    },
+    {
+      "id": "c05",
+      "label": "WDYC: Making of a Scientist, father, Arline (personal)",
+      "source": "raw/wdyc.txt",
+      "kind": "monologue",
+      "period": "memoir/1988",
+      "tokens": 29559
+    },
+    {
+      "id": "c06",
+      "label": "WDYC: Rogers Commission / Challenger investigation",
+      "source": "raw/wdyc.txt",
+      "kind": "decision_record",
+      "period": "1986-88",
+      "tokens": 39286
+    },
+    {
+      "id": "c07",
+      "label": "Pleasure: 'The Pleasure of Finding Things Out' (BBC interview)",
+      "source": "raw/pleasure.txt",
+      "kind": "dialogue",
+      "period": "1981",
+      "tokens": 8408
+    },
+    {
+      "id": "c08",
+      "label": "Pleasure: Los Alamos from Below (talk)",
+      "source": "raw/pleasure.txt",
+      "kind": "monologue",
+      "period": "1975",
+      "tokens": 16601
+    },
+    {
+      "id": "c09",
+      "label": "Pleasure: science & society essays (value/culture/religion/computing)",
+      "source": "raw/pleasure.txt",
+      "kind": "monologue",
+      "period": "1955-85",
+      "tokens": 27831
+    },
+    {
+      "id": "c10",
+      "label": "Pleasure: integrity & interviews (Not Fooling Yourself, Omni, Builds a Universe)",
+      "source": "raw/pleasure.txt",
+      "kind": "dialogue",
+      "period": "1979-88",
+      "tokens": 17188
+    },
+    {
+      "id": "c11",
+      "label": "Pleasure: Minority Report to the Challenger Inquiry",
+      "source": "raw/pleasure.txt",
+      "kind": "decision_record",
+      "period": "1986",
+      "tokens": 11543
+    },
+    {
+      "id": "c12",
+      "label": "Character: lectures 1-3 (gravitation, math&physics, conservation)",
+      "source": "raw/character.txt",
+      "kind": "monologue",
+      "period": "1964",
+      "tokens": 24898
+    },
+    {
+      "id": "c13",
+      "label": "Character: lectures 4-7 (symmetry, past/future, uncertainty, seeking new laws)",
+      "source": "raw/character.txt",
+      "kind": "monologue",
+      "period": "1964",
+      "tokens": 34215
+    },
+    {
+      "id": "c14",
+      "label": "Six Easy Pieces: atoms, basic physics, energy, physics-relations",
+      "source": "raw/sixeasy.txt",
+      "kind": "monologue",
+      "period": "1961-63",
+      "tokens": 34943
+    },
+    {
+      "id": "c15",
+      "label": "Six Easy Pieces: gravitation & quantum behavior",
+      "source": "raw/sixeasy.txt",
+      "kind": "monologue",
+      "period": "1961-63",
+      "tokens": 11169
+    },
+    {
+      "id": "c16",
+      "label": "Feynman's Tips: study advice + problem-solving heuristics",
+      "source": "raw/tips.txt",
+      "kind": "monologue",
+      "period": "1961-62",
+      "tokens": 51477
+    },
+    {
+      "id": "c17",
+      "label": "New Textbooks for the 'New' Mathematics (critique essay)",
+      "source": "raw/newmath.txt",
+      "kind": "monologue",
+      "period": "1965",
+      "tokens": 5379
+    }
+  ]
+}
