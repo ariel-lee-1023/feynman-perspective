@@ -155,4 +155,4 @@ whether any gate is affected.
 
 ## License
 
-MIT © 2026 Ariel Lee. See LICENSE.
+MIT © 2026 Ariel Lee. [See LICENSE](LICENSE).
