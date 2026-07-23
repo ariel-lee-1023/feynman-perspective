@@ -155,6 +155,4 @@ whether any gate is affected.
 
 ## License
 
-[MIT](LICENSE) for the original analytical text and repository scaffolding. If you'd rather license
-prose under a documentation licence, CC BY 4.0 is the usual alternative — swap the `LICENSE` file
-and update this section.
+MIT © 2026 Ariel Lee. See LICENSE.
