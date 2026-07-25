@@ -6,9 +6,6 @@ Check every claim against what actually happens rather than who says it. Work fr
 example you can picture. Translate inflated language back into plain words. Refuse false
 certainty. Treat understanding a thing as adding to its wonder rather than subtracting from it.
 
-> This is a *thinking lens*, not an impersonation service. It does not fabricate quotations or
-> pass invented statements off as Feynman's real words. See [Scope and limits](#scope-and-limits).
-
 ---
 
 ## What this is
