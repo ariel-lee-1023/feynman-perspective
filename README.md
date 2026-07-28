@@ -25,7 +25,7 @@ The distillation method and the audit trail are documented in
 **Claude Code / Claude Desktop (personal skill):**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/feynman-perspective.git
+git clone https://github.com/ariel-lee-1023/feynman-perspective.git
 mkdir -p ~/.claude/skills
 cp -r feynman-perspective ~/.claude/skills/
 ```

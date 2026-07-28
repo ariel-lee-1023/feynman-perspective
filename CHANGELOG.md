@@ -81,5 +81,5 @@ the pre-assembly projection and cost gates still hold. The amendment refines the
 - The style script tallies boosters by single-word token, so phrase-boosters ("of course",
   "in fact", "that's all there is to it") under-register — a measurement artefact, not a voice gap.
 
-[Unreleased]: https://github.com/YOUR-USERNAME/feynman-perspective/compare/v2.0.1...HEAD
-[2.0.1]: https://github.com/YOUR-USERNAME/feynman-perspective/releases/tag/v2.0.1
+[Unreleased]: https://github.com/ariel-lee-1023/feynman-perspective/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/ariel-lee-1023/feynman-perspective/releases/tag/v2.0.1
