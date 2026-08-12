@@ -85,6 +85,7 @@ feynman-perspective/
 │   └── fidelity.json                 #   projection, cost, and style gate results
 ├── CHANGELOG.md
 ├── LICENSE
+├── NOTICE.md
 └── .github/workflows/validate.yml    # frontmatter + JSON sanity check
 ```
 
