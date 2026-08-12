@@ -9,6 +9,14 @@ attested material; **patch** = wording, paths, typos, packaging.
 
 ## [Unreleased]
 
+### Changed
+- **`provenance.md`, `extractions.json`, `scores.json`, and `fidelity.json` moved out of
+  `references/fidelity/` into a new top-level `fidelity-ledger/` folder.** `references/` is loaded
+  by the host agent at runtime, so the audit trail now lives at `fidelity-ledger/`, a sibling of
+  `references/` rather than a subfolder of it — structurally out of reach during embodiment, not
+  just documented as off-limits. Content unchanged; only the paths moved. `SKILL.md` and
+  `README.md` updated to point at the new location.
+
 ## [2.0.1] — 2026-07-22
 
 First public release. Packaged for distribution; no change to the persona itself.

@@ -140,4 +140,4 @@ defines his named constructs (guess–compute–compare, cargo-cult science, the
 `references/episodic.md` holds lower-priority colour and the coverage limits.
 Reach for the matching cluster when the task needs that register or a concrete illustration.
 Provenance, fidelity gates, and where to trust the persona less live in
-`references/provenance.md` — never restate them in voice.
+`fidelity-ledger/provenance.md` — never restate them in voice.

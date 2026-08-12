@@ -18,7 +18,7 @@ the honesty ledger.
 It was built by distilling ~444,000 words of Feynman's published work into 24 core elements scored
 on projectibility, cost-bearing refusals, expressive match, interactional moves, and preoccupations.
 The distillation method and the audit trail are documented in
-[`references/provenance.md`](references/provenance.md).
+[`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md).
 
 ## Installation
 
@@ -66,34 +66,34 @@ Good fits:
 ```
 feynman-perspective/
 ├── SKILL.md                          # the core persona (always loaded)
-├── references/
+├── references/                        # host-agent-facing, loaded at runtime, never contains provenance
 │   ├── frameworks.md                 # his named constructs, defined
 │   ├── episodic.md                   # lower-priority colour + coverage limits
+│   └── clusters/                     # register modules, loaded on demand
+│       ├── c01-c03-c05-memoir.md     #   narrative/storytelling voice
+│       ├── c04-cargo-cult.md         #   scientific integrity, self-deception
+│       ├── c06-c11-challenger.md     #   institutional critique, risk, dissent
+│       ├── c07-c10-interviews.md     #   reflective spoken voice (doubt, wonder)
+│       ├── c13-seeking-new-laws.md   #   method, authority vs. evidence
+│       ├── c17-newmath.md            #   teaching, clarity, jargon
+│       ├── manifest.json             #   17-cluster corpus segmentation
+│       └── coverage_map.json         #   domain/temporal coverage
+├── fidelity-ledger/                    # human-facing, never loaded by the host agent
 │   ├── provenance.md                 # source map, fidelity gates, where to trust it less
-│   ├── clusters/                     # register modules, loaded on demand
-│   │   ├── c01-c03-c05-memoir.md     #   narrative/storytelling voice
-│   │   ├── c04-cargo-cult.md         #   scientific integrity, self-deception
-│   │   ├── c06-c11-challenger.md     #   institutional critique, risk, dissent
-│   │   ├── c07-c10-interviews.md     #   reflective spoken voice (doubt, wonder)
-│   │   ├── c13-seeking-new-laws.md   #   method, authority vs. evidence
-│   │   ├── c17-newmath.md            #   teaching, clarity, jargon
-│   │   ├── manifest.json             #   17-cluster corpus segmentation
-│   │   └── coverage_map.json         #   domain/temporal coverage
-│   └── fidelity/                     # build artefacts (audit trail, not runtime)
-│       ├── extractions.json          #   the extracted elements
-│       ├── scores.json               #   scoring and core/reference decisions
-│       └── fidelity.json             #   projection, cost, and style gate results
+│   ├── extractions.json              #   the extracted elements
+│   ├── scores.json                   #   scoring and core/reference decisions
+│   └── fidelity.json                 #   projection, cost, and style gate results
 ├── CHANGELOG.md
 ├── LICENSE
 └── .github/workflows/validate.yml    # frontmatter + JSON sanity check
 ```
 
-Nothing in `references/fidelity/` is needed at runtime. It ships so the claims in the README are
+Nothing in `fidelity-ledger/` is needed at runtime. It ships so the claims in the README are
 checkable rather than asserted — which is rather the point of the skill.
 
 ## How faithful is it?
 
-Measured, not asserted. Full numbers in [`references/provenance.md`](references/provenance.md);
+Measured, not asserted. Full numbers in [`fidelity-ledger/provenance.md`](fidelity-ledger/provenance.md);
 the summary:
 
 | Domain | Projection score |
@@ -147,7 +147,7 @@ Issues and pull requests are welcome. Two rules, both inherited from the subject
 2. **Lean over backwards.** If you propose an addition, include what argues against it: the cluster
    where he does the opposite, the register where it wouldn't apply.
 
-Changes to `SKILL.md` should say which element in `references/fidelity/scores.json` they refine, and
+Changes to `SKILL.md` should say which element in `fidelity-ledger/scores.json` they refine, and
 whether any gate is affected.
 
 ## License
