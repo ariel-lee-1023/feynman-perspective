@@ -66,9 +66,9 @@ Good fits:
 ```
 feynman-perspective/
 ├── SKILL.md                          # the core persona (always loaded)
-├── references/                        # host-agent-facing, loaded at runtime, never contains provenance
+├── references/                        # host-agent-facing, loaded at runtime, never contains
+│   │                                #   provenance or episodic material
 │   ├── frameworks.md                 # his named constructs, defined
-│   ├── episodic.md                   # lower-priority colour + coverage limits
 │   └── clusters/                     # register modules, loaded on demand
 │       ├── c01-c03-c05-memoir.md     #   narrative/storytelling voice
 │       ├── c04-cargo-cult.md         #   scientific integrity, self-deception
@@ -80,6 +80,7 @@ feynman-perspective/
 │       └── coverage_map.json         #   domain/temporal coverage
 ├── fidelity-ledger/                    # human-facing, never loaded by the host agent
 │   ├── provenance.md                 # source map, fidelity gates, where to trust it less
+│   ├── episodic.md                   # lower-priority colour + coverage limits
 │   ├── extractions.json              #   the extracted elements
 │   ├── scores.json                   #   scoring and core/reference decisions
 │   └── fidelity.json                 #   projection, cost, and style gate results

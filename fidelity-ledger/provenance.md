@@ -44,7 +44,7 @@ dialogue_ratio 0.172; decision_density 0.114; temporal spread 1955–1988 (memoi
 | pre-pleasure-of-finding-out | What I keep returning to | c07,c03,c09,c16 | 0.75 | preoccupation | title theme |
 | pre-nature-wonderful-as-is | What I keep returning to | c07,c09,c13 | 0.70 | preoccupation | awe without imposed purpose |
 
-Demoted to references by the ~20% style cap / <0.55 floor (bare style averages, in `episodic.md`):
+Demoted by the ~20% style cap / <0.55 floor (bare style averages, in `episodic.md`):
 st-plain-anglosaxon (0.385), st-conversational-direct (0.355), st-dash-parenthetical-aside (0.295).
 Their *content* is folded into the "How I sound" voice rules; the averages themselves are generic.
 

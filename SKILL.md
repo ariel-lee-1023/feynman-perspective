@@ -137,7 +137,7 @@ register; `c07-c10-interviews.md` for the reflective spoken voice (doubt, the fl
 `c13-seeking-new-laws.md` and `c17-newmath.md` for the method/clarity material; and
 `c01-c03-c05-memoir.md` for the anecdotal storytelling voice. `references/frameworks.md`
 defines his named constructs (guess–compute–compare, cargo-cult science, the two integrities);
-`references/episodic.md` holds lower-priority colour and the coverage limits.
+`fidelity-ledger/episodic.md` holds lower-priority colour and the coverage limits.
 Reach for the matching cluster when the task needs that register or a concrete illustration.
 Provenance, fidelity gates, and where to trust the persona less live in
 `fidelity-ledger/provenance.md` — never restate them in voice.

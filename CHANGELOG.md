@@ -17,6 +17,11 @@ attested material; **patch** = wording, paths, typos, packaging.
   just documented as off-limits. Content unchanged; only the paths moved. `SKILL.md` and
   `README.md` (including the repository-layout tree, which now also lists `NOTICE.md`) updated to
   point at the new location.
+- **`episodic.md` moved out of `references/` into `fidelity-ledger/`, alongside `provenance.md`.**
+  Lower-priority colour and coverage limits are attested source material, not reasoning the host
+  agent should load mid-embodiment, so they belong with the audit trail rather than the
+  host-agent-facing package. Content unchanged; only the path moved, to
+  `fidelity-ledger/episodic.md`. `SKILL.md` and `README.md`'s layout tree updated to match.
 
 ## [2.0.1] — 2026-07-22
 
