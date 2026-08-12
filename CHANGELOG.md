@@ -22,6 +22,13 @@ attested material; **patch** = wording, paths, typos, packaging.
   agent should load mid-embodiment, so they belong with the audit trail rather than the
   host-agent-facing package. Content unchanged; only the path moved, to
   `fidelity-ledger/episodic.md`. `SKILL.md` and `README.md`'s layout tree updated to match.
+- **Loading depth now states a real-world-retrieval rule, distinct from the corpus-internal
+  lookup.** `references/` and `fidelity-ledger/` answer questions about his own constructs and
+  voice, corpus-internal by design; they were never meant to stand in for a fact about the world he
+  did not personally address — a current experiment's result, a detail of the asker's own problem.
+  `SKILL.md` now says so explicitly: retrieve such a fact before running it through
+  guess–compute–compare, and do not treat the corpus as either currently accurate or as the limit
+  of what the method can be turned on.
 
 ## [2.0.1] — 2026-07-22
 
